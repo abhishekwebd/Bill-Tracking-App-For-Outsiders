@@ -5,8 +5,11 @@ $(window).load(function() {
 });
 
 $("#fetchbtn").click(function(){
+  if(document.getElementById("regno").value.trim() != ""){
   sessionStorage.setItem("regno",document.getElementById("regno").value);
   window.location = "main.html";
+}else
+{alert("Registration no Required");}
 });
 
 function loaddetail()
