@@ -31,6 +31,7 @@ function loaddetail()
          document.getElementById("totunit").innerText = arr[0].TOT_UNIT;
           document.getElementById("totelec").innerText = arr[0].TOT_ELEC;
            document.getElementById("lpdate").innerText = arr[0].L_PDATE;
+           document.getElementById("name").innerText = arr[0].NAME;
     }
 
 
